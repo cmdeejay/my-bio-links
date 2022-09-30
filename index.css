@@ -5,9 +5,16 @@ body, html {
   color: #fff;
 }
 
-body {
-  background: url(./images/bg02.png) no-repeat center center fixed;
-  background-size: cover;
+#body {
+#  background: url(./images/bg02.png) no-repeat center center fixed;
+#  background-size: cover;
+#}
+
+main {
+  position: relative;
+  opacity:0;
+  filter: blur(10px);
+  transition: opacity 1.5s ease-in-out, filter 1.5s ease-in-out;
 }
 
 #vanta {
