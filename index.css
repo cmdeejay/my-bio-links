@@ -78,7 +78,7 @@ ul > li > a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 a {
